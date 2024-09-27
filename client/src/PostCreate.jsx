@@ -8,7 +8,7 @@ const PostCreate = () => {
     e.preventDefault();
     if(title === "") return;
 
-    await axios.post("http://localhost:4000/posts", { title });
+    await axios.post("http://posts.com/posts/create", { title });
     setTitle("");
   };
 
