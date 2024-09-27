@@ -14,7 +14,7 @@ const PostCreate = () => {
 
   return (
     <div>
-      <h2>Create a Post</h2>
+      <h2>Create Post</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label>Title</label>
